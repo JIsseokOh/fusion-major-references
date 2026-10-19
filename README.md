@@ -1,0 +1,75 @@
+# 융합전공 제안 공모전 참고문헌
+
+총 66건. 웹 페이지: https://jisseokoh.github.io/fusion-major-references/
+
+## 국내 자료
+
+- 과학기술정보통신부 (2026). 인공지능 데이터센터 특별법 국회 본회의 통과(보도자료, 2026.5.7). <https://eiec.kdi.re.kr/policy/materialView.do?num=280743>
+- 교육부 (2026). 지역 성장을 견인할 국가대표 거점국립대학 선정 결과 발표(보도자료, 2026.9.1). <https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=408&boardSeq=107109&lev=0&m=020402&opType=N&page=1&s=moe>
+- 국가법령정보센터 (2026). 인공지능 데이터센터 산업 진흥에 관한 특별법(법률 제21759호, 2026.6.9 제정, 2027.3.10 시행). <https://www.law.go.kr/lsInfoP.do?lsiSeq=286707&viewCls=lsRvsDocInfoR>
+- 뉴스핌 (2026). LG전자, 북미서 5GW 대형 수주…AI 데이터센터 냉각사업 본궤도(2026.10.5). <https://www.newspim.com/news/view/20261005000143>
+- 대학저널 (2014). 대한민국 첨단 기계 산업 인재양성의 메카, 부산대 기계공학부(2014.12.30). <https://dhnews.co.kr/news/view/179513617455739>
+- 라이브뉴스 (2026). 인천폴리텍, AWS 연계 데이터센터 엔지니어 양성과정 입학식 개최(2026.7.6). <https://www.livesnews.com/news/article.html?no=62395>
+- 머니투데이 (2026a). 수도권엔 전기가, 지방엔 고객이 없다…데이터센터의 삼중고(2026.5.20). <https://www.mt.co.kr/tech/2026/05/20/2026051922000848265>
+- 머니투데이 (2026b). '수도권 데이터센터' 몰리지만…전력망 '감당불가'→지방이 대안?(2026.5.23). <https://www.mt.co.kr/tech/2026/05/23/2026052210211399740>
+- 부대신문 (2026). AI대학 신설 승부수(제1657호, 2026.3.3). <https://pdf.channelpnu.pusan.ac.kr/1657/16571657.pdf>
+- 부산광역시 (2026). 부산시-마이크로소프트, "데이터센터 아카데미" 2기 수료생 배출… 글로벌기업 인턴십 연계(2026.9.17). <https://www.busan.go.kr/nbtnewsBU/1754654>
+- 부산대학교 (2019). 공학교육인증 GUIDE BOOK. <https://cea.pusan.ac.kr/bbs/cea/10276/671016/download.do>
+- 부산대학교 (2025). AI 시대 핵심 교육·연구 기반 부산대 「IT관」 준공(보도자료, 2025.12.16). <https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN114&page=20&mgr_seq=16&mode=view&mgr_seq=16&board_seq=1506551>
+- 부산대학교 (2026a). 부산대, 정부 재정지원사업 「최우수 3관왕」 달성(보도자료, 2026.9.15). <https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN114&mode=view&mgr_seq=16&board_seq=1511056>
+- 부산대학교 (2026b). 2027학년도 수시모집요강. <https://go.pusan.ac.kr/down/mojib/RF(0)_2607079150.pdf>
+- 부산대학교 기계공학부 (2020). 대학원 브로슈어. <https://me.pusan.ac.kr/new/file/2020brochure.pdf>
+- 부산대학교 융합교육센터 (2026a). 융합전공 현황(2026.9.1 기준). <https://con.pusan.ac.kr/con/74187/subview.do>
+- 부산대학교 융합교육센터 (2026b). 연계전공 현황(2026.9.1 기준). <https://con.pusan.ac.kr/con/74181/subview.do>
+- 부산대학교 융합교육센터 (2026c). 2027학년도 1학기 융합전공 신설 신청(2026.9.2). <https://con.pusan.ac.kr/bbs/con/18487/1764302/artclView.do>
+- 부산대학교 융합교육센터 (2026d). 마이크로디그리 현황(2026.9.1 기준). <https://con.pusan.ac.kr/con/74959/subview.do>
+- 부산대학교 정보컴퓨터공학부 (2026a). 컴퓨터공학전공 2026학년도 교육과정표. <https://cse.pusan.ac.kr/cse/14274/subview.do>
+- 부산대학교 정보컴퓨터공학부 (2026b). 인공지능전공 2026학년도 교육과정표. <https://cse.pusan.ac.kr/cse/14275/subview.do>
+- 부산대학교 정보컴퓨터공학부 (2026c). 교수진. <https://cse.pusan.ac.kr/cse/14215/subview.do>
+- 부산대학교 학생지원시스템 (2026a). 교육과정 안내(2026 교육과정). <https://onestop.pusan.ac.kr/page?menuCD=000000000000153>
+- 부산대학교 학생지원시스템 (2026b). 복수전공 안내. <https://onestop.pusan.ac.kr/page?menuCD=000000000000405>
+- 부산일보 (2025). [단독] 서부산권으로 몰리는 데이터센터…부산, 동서간 전력수급 격차 심화(2025.4.17). <https://www.busan.com/view/busan/view.php?code=2025041717080897060>
+- 부산일보 (2026a). 부산대 양산캠퍼스에 '동남권 거점 AI 인프라 허브' 조성한다(2026.8.5). <https://www.busan.com/view/busan/view.php?code=2026080510011940742>
+- 부산일보 (2026b). 부산대 '서울대 10개' 지원대 선정…'세계 100위권' 도약 성장엔진 구축 날개 편다(2026.9.1). <https://www.busan.com/view/busan/view.php?code=2026090118125299162>
+- 산업통상부 (2026). 5극3특 권역별 성장엔진 육성 방안(2026.8.27). <https://www.motir.go.kr/kor/article/ATCL4fcf3d8c6/793/view>
+- 삼성전자 (2025). 삼성전자, 獨 플랙트 인수…글로벌 공조 시장 본격 진출(뉴스룸, 2025.5.14). <https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%E7%8D%A8-%ED%94%8C%EB%9E%99%ED%8A%B8-%EC%9D%B8%EC%88%98%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B3%B5%EC%A1%B0-%EC%8B%9C%EC%9E%A5-%EB%B3%B8%EA%B2%A9-%EC%A7%84>
+- 서울경제 (2026). 지방 AIDC 전력평가 '병목'…대기만 10GW(2026.8.3). <https://www.sedaily.com/article/20075225>
+- 서울신문 (2026). 땅 좁아, 전력 부족해… 데이터센터, 바다·우주로 영토 개척(2026.8.26). <https://www.seoul.co.kr/news/plan/datacenter/2026/08/26/20260826005001?wlog_tag3=naver>
+- 아시아경제 (2026). 부산대, 동남권 AX 혁신 전면에… '거점국립대 패키지 지원사업' 선정(2026.9.2). <https://view.asiae.co.kr/article/2026090208175507918>
+- 울산매일 (2025). [사설] SK, 울산 AI 데이터센터 1GW 확장 검토 환영(2025.11.3). <https://v.daum.net/v/20251103201630505>
+- 인더뉴스 (2026). 부산대, 국가대표 거점국립대 선정…5년간 정부지원 5000억원(2026.9.2). <https://www.inthenews.co.kr/news/article.html?no=91293>
+- 인천일보 (2026). 아주대, 388억원 규모 AI 데이터센터 열관리 국가사업 주관기관 선정(2026.7.30). <https://www.incheonilbo.com/news/articleView.html?idxno=1328460>
+- 중기이코노미 (2026). 두산에너빌리티, 작년 신규수주 14.7조 사상 최대(2026.2.19). <https://www.junggi.co.kr/news/articleView.html?idxno=35537>
+- 칸 (2026). 2027년 AI DC 전력·냉각 핵심장비 국산화 착수(2026.7.26). <https://www.kharn.kr/news/article.html?no=31410>
+- 파이낸셜뉴스 (2026). 영덕·기장, 15년 만의 신규 원전 부지…계통·방폐장은 숙제(2026.6.17). <https://www.fnnews.com/news/202606171932273981>
+- 한국공학교육인증원 (2024). 공학교육인증기준 2025(KEC2025). <https://www.abeek.or.kr/img/2026KEC.pdf>
+- LG전자 (2026a). 2026년 2분기 실적 컨퍼런스콜(2026.7.30). <https://www.lge.co.kr/kr/upload/admin/investment/result/2026_Q2_Earning_Release_of_LGE_Transcript_KR.pdf>
+- LG전자 (2026b). 글로벌 칠러 생산능력 확대…AI 데이터센터 냉각 솔루션 공급 늘린다(보도자료, 2026.10.1). <https://www.lg.co.kr/media/release/30623>
+- SK텔레콤 (2025). SK-AWS 울산 AI 데이터센터, AI 고속도로의 거점으로(뉴스룸, 2025.6.23). <https://news.sktelecom.com/213316>
+- SK텔레콤·SK에코플랜트 (2025). 'SK AI 데이터센터 울산' 기공식 개최(공동보도자료, 2025.8.29). <https://news.sktelecom.com/214708>
+
+## 국외 자료
+
+- arXiv (2025). Temperature Optimisation in Data Centres. arXiv:2509.26163. <https://www.arxiv.org/abs/2509.26163>
+- ASHRAE TC 9.9 (2019). Water-Cooled Servers: Common Designs, Components, and Processes. <https://www.ashrae.org/File%20Library/Technical%20Resources/Bookstore/WhitePaper_TC099-WaterCooledServers.pdf>
+- ATU (2026). Bachelor of Engineering in Data Centre Facilities Engineering. <https://www.atu.ie/courses/bachelor-of-engineering-data-centre-facilities-engineering>
+- Binghamton University (2022). Data center research group earns additional NSF funding. <https://www.binghamton.edu/news/story/3959/data-center-research-group-earns-additional-nsf-funding>
+- Data Center Knowledge (2026). AI Rack Density's Real Limits: Power, Cooling, Failure Risk. <https://www.datacenterknowledge.com/ai-data-centers/ai-rack-density-s-real-limits-power-cooling-failure-risk>
+- DatacenterDynamics (2025). Nvidia's Rubin Ultra NVL576 rack expected to be 600kW, coming second half of 2027. <https://datacenterdynamics.com/en/news/nvidias-rubin-ultra-nvl576-rack-expected-to-be-600kw-coming-second-half-of-2027>
+- ENERGY STAR (2026). Raise the Temperature. U.S. EPA. <https://www.energystar.gov/node/6104>
+- ES2 (2026). Current Industry Members. Binghamton University. <https://www.binghamton.edu/es2/partner/current-industry-members.html>
+- Google DeepMind (2016). DeepMind AI Reduces Google Data Centre Cooling Bill by 40%. <https://deepmind.google/discover/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/>
+- Google DeepMind (2018). Safety-first AI for autonomous data centre cooling and industrial control. <https://deepmind.google/discover/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control>
+- IEA (2025). Energy and AI. <https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai>
+- IEA (2026). Key Questions on Energy and AI. <https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary>
+- KAMK (2026). Business Information Technology, Data Center. <https://kamk.fi/?p=29115>
+- NVIDIA (2024). NVIDIA Contributes NVIDIA GB200 NVL72 Designs to Open Compute Project. <https://developer.nvidia.com/blog/nvidia-contributes-nvidia-gb200-nvl72-designs-to-open-compute-project>
+- OpenFOAM Foundation (2026). OpenFOAM. <https://openfoam.org/>
+- SC26 (2026). Student Cluster Competition. <https://sc26.supercomputing.org/students/student-cluster-competition/>
+- Schneider Electric (2025). Schneider Electric delivers as liquid cooling takes center stage in AI data centers. <https://blog.se.com/datacenter/2025/10/17/schneider-electric-delivers-as-liquid-cooling-takes-center-stage-in-ai-data-centers/>
+- SMU (2014). MS Datacenter Systems Engineering Catalog. <https://www.smu.edu/-/media/Site/Lyle/DSE/MS-Datacenter-Systems-Engineering-Catalog.pdf?la=en>
+- Syracuse University (2026). Datacenters, AI and Energy Systems Minor. <https://coursecatalog.syracuse.edu/undergraduate/engineering-computer-science/datacenters-ai-energy-systems-minor/>
+- University of Tennessee (2026). Datacenter Technology and Management Minor. <https://tickle.utk.edu/academics/undergraduate-minors/datacenter-technology-and-management/>
+- Uptime Institute (2020). Rack Density is Rising. <https://journal.uptimeinstitute.com/rack-density-is-rising/>
+- Uptime Institute (2025). Lack of trust will hinder adoption of AI-based controls. <https://intelligence.uptimeinstitute.com/entity_pdf/node/152823/pdf>
+- Uptime Institute (2026). Global Data Center Survey 2026. <https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/UptimeInstitute.GlobalDataCenterSurvey.2026.pdf>

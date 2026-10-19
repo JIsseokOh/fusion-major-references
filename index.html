@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>참고문헌 | 융합전공 제안</title>
+<meta name="description" content="융합전공 제안 공모전 참고문헌 목록 (66건)">
+<style>
+  :root {
+    --bg:#f7f8fa; --card:#ffffff; --text:#1c1f26; --muted:#5d6472; --line:#e3e6eb;
+    --accent:#1f5eff; --accent-soft:#eaf0ff; --num:#9aa1ad;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1115; --card:#171a21; --text:#e8eaee; --muted:#9aa1ad; --line:#2a2f3a;
+      --accent:#7ea2ff; --accent-soft:#1b2440; --num:#6b7280; color-scheme: dark; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+    font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",system-ui,-apple-system,sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:880px; margin:0 auto; padding:48px 20px 80px; }
+  header { margin-bottom:28px; }
+  .eyebrow { font-size:13px; letter-spacing:.08em; color:var(--accent); font-weight:600; text-transform:uppercase; }
+  h1 { font-size:clamp(26px,4vw,34px); margin:6px 0 10px; letter-spacing:-.01em; }
+  .lead { color:var(--muted); margin:0 0 20px; font-size:15px; }
+  .toolbar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  .search { flex:1 1 260px; display:flex; align-items:center; gap:8px; background:var(--card); border:1px solid var(--line);
+    border-radius:10px; padding:10px 14px; }
+  .search input { flex:1; border:0; outline:0; background:transparent; color:var(--text); font:inherit; font-size:15px; min-width:0; }
+  .search svg { width:16px; height:16px; color:var(--muted); flex:none; }
+  .jump { display:flex; gap:6px; flex-wrap:wrap; }
+  .jump a { font-size:13px; padding:8px 12px; border-radius:999px; background:var(--accent-soft); color:var(--accent); text-decoration:none; font-weight:600; }
+  .status { font-size:13px; color:var(--muted); margin:10px 0 0; min-height:1.4em; }
+  section { margin-top:36px; }
+  h2 { font-size:20px; margin:0 0 4px; display:flex; align-items:baseline; gap:10px; }
+  .count { font-size:13px; color:var(--muted); font-weight:500; }
+  .desc { margin:0 0 14px; font-size:14px; color:var(--muted); }
+  ol { list-style:none; margin:0; padding:0; background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+  li { display:flex; gap:14px; padding:16px 18px; border-top:1px solid var(--line); }
+  li:first-child { border-top:0; }
+  li.hide { display:none; }
+  li:target { background:var(--accent-soft); }
+  .num { flex:none; width:28px; font-variant-numeric:tabular-nums; color:var(--num); font-size:13px; padding-top:3px; text-align:right; }
+  .body { min-width:0; flex:1; }
+  .cite { margin:0 0 4px; font-size:15.5px; }
+  .author { font-weight:600; }
+  .url { display:block; font-size:13px; color:var(--accent); text-decoration:none; word-break:break-all; overflow-wrap:anywhere; }
+  .url:hover { text-decoration:underline; }
+  .empty { display:none; padding:28px; text-align:center; color:var(--muted); background:var(--card); border:1px dashed var(--line); border-radius:14px; margin-top:24px; }
+  footer { margin-top:48px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:18px; }
+  @media print {
+    body { background:#fff; color:#000; }
+    .toolbar,.status,footer { display:none; }
+    ol { border:0; } li { padding:6px 0; break-inside:avoid; }
+    .url { color:#000; }
+    .wrap { padding:0; max-width:none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">References</div>
+    <h1>참고문헌</h1>
+    <p class="lead">융합전공 제안 공모전 제출용 참고문헌 목록입니다. 총 66건이며, 각 항목의 링크를 누르면 원문으로 이동합니다.</p>
+    <div class="toolbar">
+      <label class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="저자, 제목, 연도, URL 검색" autocomplete="off" aria-label="참고문헌 검색">
+      </label>
+      <nav class="jump">
+        <a href="#domestic">국내 43</a>
+        <a href="#international">국외 23</a>
+      </nav>
+    </div>
+    <p class="status" id="status"></p>
+  </header>
+
+    <section id="domestic">
+      <h2>국내 자료 <span class="count">43건</span></h2>
+      <p class="desc">정부·지자체 보도자료, 법령, 부산대학교 공식 자료, 국내 언론 보도, 국내 기업 자료</p>
+      <ol start="1">
+      <li id="ref-1" data-text="과학기술정보통신부 2026 인공지능 데이터센터 특별법 국회 본회의 통과(보도자료, 2026.5.7) https://eiec.kdi.re.kr/policy/materialview.do?num=280743">
+        <span class="num">1</span>
+        <div class="body">
+          <p class="cite"><span class="author">과학기술정보통신부</span> (2026). 인공지능 데이터센터 특별법 국회 본회의 통과(보도자료, 2026.5.7).</p>
+          <a class="url" href="https://eiec.kdi.re.kr/policy/materialView.do?num=280743" target="_blank" rel="noopener noreferrer">https://eiec.kdi.re.kr/policy/materialView.do?num=280743</a>
+        </div>
+      </li>
+      <li id="ref-2" data-text="교육부 2026 지역 성장을 견인할 국가대표 거점국립대학 선정 결과 발표(보도자료, 2026.9.1) https://www.moe.go.kr/boardcnts/viewrenew.do?boardid=408&amp;boardseq=107109&amp;lev=0&amp;m=020402&amp;optype=n&amp;page=1&amp;s=moe">
+        <span class="num">2</span>
+        <div class="body">
+          <p class="cite"><span class="author">교육부</span> (2026). 지역 성장을 견인할 국가대표 거점국립대학 선정 결과 발표(보도자료, 2026.9.1).</p>
+          <a class="url" href="https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=408&amp;boardSeq=107109&amp;lev=0&amp;m=020402&amp;opType=N&amp;page=1&amp;s=moe" target="_blank" rel="noopener noreferrer">https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=408&amp;boardSeq=107109&amp;lev=0&amp;m=020402&amp;opType=N&amp;page=1&amp;s=moe</a>
+        </div>
+      </li>
+      <li id="ref-3" data-text="국가법령정보센터 2026 인공지능 데이터센터 산업 진흥에 관한 특별법(법률 제21759호, 2026.6.9 제정, 2027.3.10 시행) https://www.law.go.kr/lsinfop.do?lsiseq=286707&amp;viewcls=lsrvsdocinfor">
+        <span class="num">3</span>
+        <div class="body">
+          <p class="cite"><span class="author">국가법령정보센터</span> (2026). 인공지능 데이터센터 산업 진흥에 관한 특별법(법률 제21759호, 2026.6.9 제정, 2027.3.10 시행).</p>
+          <a class="url" href="https://www.law.go.kr/lsInfoP.do?lsiSeq=286707&amp;viewCls=lsRvsDocInfoR" target="_blank" rel="noopener noreferrer">https://www.law.go.kr/lsInfoP.do?lsiSeq=286707&amp;viewCls=lsRvsDocInfoR</a>
+        </div>
+      </li>
+      <li id="ref-4" data-text="뉴스핌 2026 lg전자, 북미서 5gw 대형 수주…ai 데이터센터 냉각사업 본궤도(2026.10.5) https://www.newspim.com/news/view/20261005000143">
+        <span class="num">4</span>
+        <div class="body">
+          <p class="cite"><span class="author">뉴스핌</span> (2026). LG전자, 북미서 5GW 대형 수주…AI 데이터센터 냉각사업 본궤도(2026.10.5).</p>
+          <a class="url" href="https://www.newspim.com/news/view/20261005000143" target="_blank" rel="noopener noreferrer">https://www.newspim.com/news/view/20261005000143</a>
+        </div>
+      </li>
+      <li id="ref-5" data-text="대학저널 2014 대한민국 첨단 기계 산업 인재양성의 메카, 부산대 기계공학부(2014.12.30) https://dhnews.co.kr/news/view/179513617455739">
+        <span class="num">5</span>
+        <div class="body">
+          <p class="cite"><span class="author">대학저널</span> (2014). 대한민국 첨단 기계 산업 인재양성의 메카, 부산대 기계공학부(2014.12.30).</p>
+          <a class="url" href="https://dhnews.co.kr/news/view/179513617455739" target="_blank" rel="noopener noreferrer">https://dhnews.co.kr/news/view/179513617455739</a>
+        </div>
+      </li>
+      <li id="ref-6" data-text="라이브뉴스 2026 인천폴리텍, aws 연계 데이터센터 엔지니어 양성과정 입학식 개최(2026.7.6) https://www.livesnews.com/news/article.html?no=62395">
+        <span class="num">6</span>
+        <div class="body">
+          <p class="cite"><span class="author">라이브뉴스</span> (2026). 인천폴리텍, AWS 연계 데이터센터 엔지니어 양성과정 입학식 개최(2026.7.6).</p>
+          <a class="url" href="https://www.livesnews.com/news/article.html?no=62395" target="_blank" rel="noopener noreferrer">https://www.livesnews.com/news/article.html?no=62395</a>
+        </div>
+      </li>
+      <li id="ref-7" data-text="머니투데이 2026a 수도권엔 전기가, 지방엔 고객이 없다…데이터센터의 삼중고(2026.5.20) https://www.mt.co.kr/tech/2026/05/20/2026051922000848265">
+        <span class="num">7</span>
+        <div class="body">
+          <p class="cite"><span class="author">머니투데이</span> (2026a). 수도권엔 전기가, 지방엔 고객이 없다…데이터센터의 삼중고(2026.5.20).</p>
+          <a class="url" href="https://www.mt.co.kr/tech/2026/05/20/2026051922000848265" target="_blank" rel="noopener noreferrer">https://www.mt.co.kr/tech/2026/05/20/2026051922000848265</a>
+        </div>
+      </li>
+      <li id="ref-8" data-text="머니투데이 2026b '수도권 데이터센터' 몰리지만…전력망 '감당불가'→지방이 대안?(2026.5.23) https://www.mt.co.kr/tech/2026/05/23/2026052210211399740">
+        <span class="num">8</span>
+        <div class="body">
+          <p class="cite"><span class="author">머니투데이</span> (2026b). '수도권 데이터센터' 몰리지만…전력망 '감당불가'→지방이 대안?(2026.5.23).</p>
+          <a class="url" href="https://www.mt.co.kr/tech/2026/05/23/2026052210211399740" target="_blank" rel="noopener noreferrer">https://www.mt.co.kr/tech/2026/05/23/2026052210211399740</a>
+        </div>
+      </li>
+      <li id="ref-9" data-text="부대신문 2026 ai대학 신설 승부수(제1657호, 2026.3.3) https://pdf.channelpnu.pusan.ac.kr/1657/16571657.pdf">
+        <span class="num">9</span>
+        <div class="body">
+          <p class="cite"><span class="author">부대신문</span> (2026). AI대학 신설 승부수(제1657호, 2026.3.3).</p>
+          <a class="url" href="https://pdf.channelpnu.pusan.ac.kr/1657/16571657.pdf" target="_blank" rel="noopener noreferrer">https://pdf.channelpnu.pusan.ac.kr/1657/16571657.pdf</a>
+        </div>
+      </li>
+      <li id="ref-10" data-text="부산광역시 2026 부산시-마이크로소프트, &quot;데이터센터 아카데미&quot; 2기 수료생 배출… 글로벌기업 인턴십 연계(2026.9.17) https://www.busan.go.kr/nbtnewsbu/1754654">
+        <span class="num">10</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산광역시</span> (2026). 부산시-마이크로소프트, &quot;데이터센터 아카데미&quot; 2기 수료생 배출… 글로벌기업 인턴십 연계(2026.9.17).</p>
+          <a class="url" href="https://www.busan.go.kr/nbtnewsBU/1754654" target="_blank" rel="noopener noreferrer">https://www.busan.go.kr/nbtnewsBU/1754654</a>
+        </div>
+      </li>
+      <li id="ref-11" data-text="부산대학교 2019 공학교육인증 guide book https://cea.pusan.ac.kr/bbs/cea/10276/671016/download.do">
+        <span class="num">11</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교</span> (2019). 공학교육인증 GUIDE BOOK.</p>
+          <a class="url" href="https://cea.pusan.ac.kr/bbs/cea/10276/671016/download.do" target="_blank" rel="noopener noreferrer">https://cea.pusan.ac.kr/bbs/cea/10276/671016/download.do</a>
+        </div>
+      </li>
+      <li id="ref-12" data-text="부산대학교 2025 ai 시대 핵심 교육·연구 기반 부산대 「it관」 준공(보도자료, 2025.12.16) https://www.pusan.ac.kr/kor/cms/board/board.do?mcode=mn114&amp;page=20&amp;mgr_seq=16&amp;mode=view&amp;mgr_seq=16&amp;board_seq=1506551">
+        <span class="num">12</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교</span> (2025). AI 시대 핵심 교육·연구 기반 부산대 「IT관」 준공(보도자료, 2025.12.16).</p>
+          <a class="url" href="https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN114&amp;page=20&amp;mgr_seq=16&amp;mode=view&amp;mgr_seq=16&amp;board_seq=1506551" target="_blank" rel="noopener noreferrer">https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN114&amp;page=20&amp;mgr_seq=16&amp;mode=view&amp;mgr_seq=16&amp;board_seq=1506551</a>
+        </div>
+      </li>
+      <li id="ref-13" data-text="부산대학교 2026a 부산대, 정부 재정지원사업 「최우수 3관왕」 달성(보도자료, 2026.9.15) https://www.pusan.ac.kr/kor/cms/board/board.do?mcode=mn114&amp;mode=view&amp;mgr_seq=16&amp;board_seq=1511056">
+        <span class="num">13</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교</span> (2026a). 부산대, 정부 재정지원사업 「최우수 3관왕」 달성(보도자료, 2026.9.15).</p>
+          <a class="url" href="https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN114&amp;mode=view&amp;mgr_seq=16&amp;board_seq=1511056" target="_blank" rel="noopener noreferrer">https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN114&amp;mode=view&amp;mgr_seq=16&amp;board_seq=1511056</a>
+        </div>
+      </li>
+      <li id="ref-14" data-text="부산대학교 2026b 2027학년도 수시모집요강 https://go.pusan.ac.kr/down/mojib/rf(0)_2607079150.pdf">
+        <span class="num">14</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교</span> (2026b). 2027학년도 수시모집요강.</p>
+          <a class="url" href="https://go.pusan.ac.kr/down/mojib/RF(0)_2607079150.pdf" target="_blank" rel="noopener noreferrer">https://go.pusan.ac.kr/down/mojib/RF(0)_2607079150.pdf</a>
+        </div>
+      </li>
+      <li id="ref-15" data-text="부산대학교 기계공학부 2020 대학원 브로슈어 https://me.pusan.ac.kr/new/file/2020brochure.pdf">
+        <span class="num">15</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 기계공학부</span> (2020). 대학원 브로슈어.</p>
+          <a class="url" href="https://me.pusan.ac.kr/new/file/2020brochure.pdf" target="_blank" rel="noopener noreferrer">https://me.pusan.ac.kr/new/file/2020brochure.pdf</a>
+        </div>
+      </li>
+      <li id="ref-16" data-text="부산대학교 융합교육센터 2026a 융합전공 현황(2026.9.1 기준) https://con.pusan.ac.kr/con/74187/subview.do">
+        <span class="num">16</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 융합교육센터</span> (2026a). 융합전공 현황(2026.9.1 기준).</p>
+          <a class="url" href="https://con.pusan.ac.kr/con/74187/subview.do" target="_blank" rel="noopener noreferrer">https://con.pusan.ac.kr/con/74187/subview.do</a>
+        </div>
+      </li>
+      <li id="ref-17" data-text="부산대학교 융합교육센터 2026b 연계전공 현황(2026.9.1 기준) https://con.pusan.ac.kr/con/74181/subview.do">
+        <span class="num">17</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 융합교육센터</span> (2026b). 연계전공 현황(2026.9.1 기준).</p>
+          <a class="url" href="https://con.pusan.ac.kr/con/74181/subview.do" target="_blank" rel="noopener noreferrer">https://con.pusan.ac.kr/con/74181/subview.do</a>
+        </div>
+      </li>
+      <li id="ref-18" data-text="부산대학교 융합교육센터 2026c 2027학년도 1학기 융합전공 신설 신청(2026.9.2) https://con.pusan.ac.kr/bbs/con/18487/1764302/artclview.do">
+        <span class="num">18</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 융합교육센터</span> (2026c). 2027학년도 1학기 융합전공 신설 신청(2026.9.2).</p>
+          <a class="url" href="https://con.pusan.ac.kr/bbs/con/18487/1764302/artclView.do" target="_blank" rel="noopener noreferrer">https://con.pusan.ac.kr/bbs/con/18487/1764302/artclView.do</a>
+        </div>
+      </li>
+      <li id="ref-19" data-text="부산대학교 융합교육센터 2026d 마이크로디그리 현황(2026.9.1 기준) https://con.pusan.ac.kr/con/74959/subview.do">
+        <span class="num">19</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 융합교육센터</span> (2026d). 마이크로디그리 현황(2026.9.1 기준).</p>
+          <a class="url" href="https://con.pusan.ac.kr/con/74959/subview.do" target="_blank" rel="noopener noreferrer">https://con.pusan.ac.kr/con/74959/subview.do</a>
+        </div>
+      </li>
+      <li id="ref-20" data-text="부산대학교 정보컴퓨터공학부 2026a 컴퓨터공학전공 2026학년도 교육과정표 https://cse.pusan.ac.kr/cse/14274/subview.do">
+        <span class="num">20</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 정보컴퓨터공학부</span> (2026a). 컴퓨터공학전공 2026학년도 교육과정표.</p>
+          <a class="url" href="https://cse.pusan.ac.kr/cse/14274/subview.do" target="_blank" rel="noopener noreferrer">https://cse.pusan.ac.kr/cse/14274/subview.do</a>
+        </div>
+      </li>
+      <li id="ref-21" data-text="부산대학교 정보컴퓨터공학부 2026b 인공지능전공 2026학년도 교육과정표 https://cse.pusan.ac.kr/cse/14275/subview.do">
+        <span class="num">21</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 정보컴퓨터공학부</span> (2026b). 인공지능전공 2026학년도 교육과정표.</p>
+          <a class="url" href="https://cse.pusan.ac.kr/cse/14275/subview.do" target="_blank" rel="noopener noreferrer">https://cse.pusan.ac.kr/cse/14275/subview.do</a>
+        </div>
+      </li>
+      <li id="ref-22" data-text="부산대학교 정보컴퓨터공학부 2026c 교수진 https://cse.pusan.ac.kr/cse/14215/subview.do">
+        <span class="num">22</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 정보컴퓨터공학부</span> (2026c). 교수진.</p>
+          <a class="url" href="https://cse.pusan.ac.kr/cse/14215/subview.do" target="_blank" rel="noopener noreferrer">https://cse.pusan.ac.kr/cse/14215/subview.do</a>
+        </div>
+      </li>
+      <li id="ref-23" data-text="부산대학교 학생지원시스템 2026a 교육과정 안내(2026 교육과정) https://onestop.pusan.ac.kr/page?menucd=000000000000153">
+        <span class="num">23</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 학생지원시스템</span> (2026a). 교육과정 안내(2026 교육과정).</p>
+          <a class="url" href="https://onestop.pusan.ac.kr/page?menuCD=000000000000153" target="_blank" rel="noopener noreferrer">https://onestop.pusan.ac.kr/page?menuCD=000000000000153</a>
+        </div>
+      </li>
+      <li id="ref-24" data-text="부산대학교 학생지원시스템 2026b 복수전공 안내 https://onestop.pusan.ac.kr/page?menucd=000000000000405">
+        <span class="num">24</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산대학교 학생지원시스템</span> (2026b). 복수전공 안내.</p>
+          <a class="url" href="https://onestop.pusan.ac.kr/page?menuCD=000000000000405" target="_blank" rel="noopener noreferrer">https://onestop.pusan.ac.kr/page?menuCD=000000000000405</a>
+        </div>
+      </li>
+      <li id="ref-25" data-text="부산일보 2025 [단독] 서부산권으로 몰리는 데이터센터…부산, 동서간 전력수급 격차 심화(2025.4.17) https://www.busan.com/view/busan/view.php?code=2025041717080897060">
+        <span class="num">25</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산일보</span> (2025). [단독] 서부산권으로 몰리는 데이터센터…부산, 동서간 전력수급 격차 심화(2025.4.17).</p>
+          <a class="url" href="https://www.busan.com/view/busan/view.php?code=2025041717080897060" target="_blank" rel="noopener noreferrer">https://www.busan.com/view/busan/view.php?code=2025041717080897060</a>
+        </div>
+      </li>
+      <li id="ref-26" data-text="부산일보 2026a 부산대 양산캠퍼스에 '동남권 거점 ai 인프라 허브' 조성한다(2026.8.5) https://www.busan.com/view/busan/view.php?code=2026080510011940742">
+        <span class="num">26</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산일보</span> (2026a). 부산대 양산캠퍼스에 '동남권 거점 AI 인프라 허브' 조성한다(2026.8.5).</p>
+          <a class="url" href="https://www.busan.com/view/busan/view.php?code=2026080510011940742" target="_blank" rel="noopener noreferrer">https://www.busan.com/view/busan/view.php?code=2026080510011940742</a>
+        </div>
+      </li>
+      <li id="ref-27" data-text="부산일보 2026b 부산대 '서울대 10개' 지원대 선정…'세계 100위권' 도약 성장엔진 구축 날개 편다(2026.9.1) https://www.busan.com/view/busan/view.php?code=2026090118125299162">
+        <span class="num">27</span>
+        <div class="body">
+          <p class="cite"><span class="author">부산일보</span> (2026b). 부산대 '서울대 10개' 지원대 선정…'세계 100위권' 도약 성장엔진 구축 날개 편다(2026.9.1).</p>
+          <a class="url" href="https://www.busan.com/view/busan/view.php?code=2026090118125299162" target="_blank" rel="noopener noreferrer">https://www.busan.com/view/busan/view.php?code=2026090118125299162</a>
+        </div>
+      </li>
+      <li id="ref-28" data-text="산업통상부 2026 5극3특 권역별 성장엔진 육성 방안(2026.8.27) https://www.motir.go.kr/kor/article/atcl4fcf3d8c6/793/view">
+        <span class="num">28</span>
+        <div class="body">
+          <p class="cite"><span class="author">산업통상부</span> (2026). 5극3특 권역별 성장엔진 육성 방안(2026.8.27).</p>
+          <a class="url" href="https://www.motir.go.kr/kor/article/ATCL4fcf3d8c6/793/view" target="_blank" rel="noopener noreferrer">https://www.motir.go.kr/kor/article/ATCL4fcf3d8c6/793/view</a>
+        </div>
+      </li>
+      <li id="ref-29" data-text="삼성전자 2025 삼성전자, 獨 플랙트 인수…글로벌 공조 시장 본격 진출(뉴스룸, 2025.5.14) https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%e7%8d%a8-%ed%94%8c%eb%9e%99%ed%8a%b8-%ec%9d%b8%ec%88%98%ea%b8%80%eb%a1%9c%eb%b2%8c-%ea%b3%b5%ec%a1%b0-%ec%8b%9c%ec%9e%a5-%eb%b3%b8%ea%b2%a9-%ec%a7%84">
+        <span class="num">29</span>
+        <div class="body">
+          <p class="cite"><span class="author">삼성전자</span> (2025). 삼성전자, 獨 플랙트 인수…글로벌 공조 시장 본격 진출(뉴스룸, 2025.5.14).</p>
+          <a class="url" href="https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%E7%8D%A8-%ED%94%8C%EB%9E%99%ED%8A%B8-%EC%9D%B8%EC%88%98%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B3%B5%EC%A1%B0-%EC%8B%9C%EC%9E%A5-%EB%B3%B8%EA%B2%A9-%EC%A7%84" target="_blank" rel="noopener noreferrer">https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%E7%8D%A8-%ED%94%8C%EB%9E%99%ED%8A%B8-%EC%9D%B8%EC%88%98%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B3%B5%EC%A1%B0-%EC%8B%9C%EC%9E%A5-%EB%B3%B8%EA%B2%A9-%EC%A7%84</a>
+        </div>
+      </li>
+      <li id="ref-30" data-text="서울경제 2026 지방 aidc 전력평가 '병목'…대기만 10gw(2026.8.3) https://www.sedaily.com/article/20075225">
+        <span class="num">30</span>
+        <div class="body">
+          <p class="cite"><span class="author">서울경제</span> (2026). 지방 AIDC 전력평가 '병목'…대기만 10GW(2026.8.3).</p>
+          <a class="url" href="https://www.sedaily.com/article/20075225" target="_blank" rel="noopener noreferrer">https://www.sedaily.com/article/20075225</a>
+        </div>
+      </li>
+      <li id="ref-31" data-text="서울신문 2026 땅 좁아, 전력 부족해… 데이터센터, 바다·우주로 영토 개척(2026.8.26) https://www.seoul.co.kr/news/plan/datacenter/2026/08/26/20260826005001?wlog_tag3=naver">
+        <span class="num">31</span>
+        <div class="body">
+          <p class="cite"><span class="author">서울신문</span> (2026). 땅 좁아, 전력 부족해… 데이터센터, 바다·우주로 영토 개척(2026.8.26).</p>
+          <a class="url" href="https://www.seoul.co.kr/news/plan/datacenter/2026/08/26/20260826005001?wlog_tag3=naver" target="_blank" rel="noopener noreferrer">https://www.seoul.co.kr/news/plan/datacenter/2026/08/26/20260826005001?wlog_tag3=naver</a>
+        </div>
+      </li>
+      <li id="ref-32" data-text="아시아경제 2026 부산대, 동남권 ax 혁신 전면에… '거점국립대 패키지 지원사업' 선정(2026.9.2) https://view.asiae.co.kr/article/2026090208175507918">
+        <span class="num">32</span>
+        <div class="body">
+          <p class="cite"><span class="author">아시아경제</span> (2026). 부산대, 동남권 AX 혁신 전면에… '거점국립대 패키지 지원사업' 선정(2026.9.2).</p>
+          <a class="url" href="https://view.asiae.co.kr/article/2026090208175507918" target="_blank" rel="noopener noreferrer">https://view.asiae.co.kr/article/2026090208175507918</a>
+        </div>
+      </li>
+      <li id="ref-33" data-text="울산매일 2025 [사설] sk, 울산 ai 데이터센터 1gw 확장 검토 환영(2025.11.3) https://v.daum.net/v/20251103201630505">
+        <span class="num">33</span>
+        <div class="body">
+          <p class="cite"><span class="author">울산매일</span> (2025). [사설] SK, 울산 AI 데이터센터 1GW 확장 검토 환영(2025.11.3).</p>
+          <a class="url" href="https://v.daum.net/v/20251103201630505" target="_blank" rel="noopener noreferrer">https://v.daum.net/v/20251103201630505</a>
+        </div>
+      </li>
+      <li id="ref-34" data-text="인더뉴스 2026 부산대, 국가대표 거점국립대 선정…5년간 정부지원 5000억원(2026.9.2) https://www.inthenews.co.kr/news/article.html?no=91293">
+        <span class="num">34</span>
+        <div class="body">
+          <p class="cite"><span class="author">인더뉴스</span> (2026). 부산대, 국가대표 거점국립대 선정…5년간 정부지원 5000억원(2026.9.2).</p>
+          <a class="url" href="https://www.inthenews.co.kr/news/article.html?no=91293" target="_blank" rel="noopener noreferrer">https://www.inthenews.co.kr/news/article.html?no=91293</a>
+        </div>
+      </li>
+      <li id="ref-35" data-text="인천일보 2026 아주대, 388억원 규모 ai 데이터센터 열관리 국가사업 주관기관 선정(2026.7.30) https://www.incheonilbo.com/news/articleview.html?idxno=1328460">
+        <span class="num">35</span>
+        <div class="body">
+          <p class="cite"><span class="author">인천일보</span> (2026). 아주대, 388억원 규모 AI 데이터센터 열관리 국가사업 주관기관 선정(2026.7.30).</p>
+          <a class="url" href="https://www.incheonilbo.com/news/articleView.html?idxno=1328460" target="_blank" rel="noopener noreferrer">https://www.incheonilbo.com/news/articleView.html?idxno=1328460</a>
+        </div>
+      </li>
+      <li id="ref-36" data-text="중기이코노미 2026 두산에너빌리티, 작년 신규수주 14.7조 사상 최대(2026.2.19) https://www.junggi.co.kr/news/articleview.html?idxno=35537">
+        <span class="num">36</span>
+        <div class="body">
+          <p class="cite"><span class="author">중기이코노미</span> (2026). 두산에너빌리티, 작년 신규수주 14.7조 사상 최대(2026.2.19).</p>
+          <a class="url" href="https://www.junggi.co.kr/news/articleView.html?idxno=35537" target="_blank" rel="noopener noreferrer">https://www.junggi.co.kr/news/articleView.html?idxno=35537</a>
+        </div>
+      </li>
+      <li id="ref-37" data-text="칸 2026 2027년 ai dc 전력·냉각 핵심장비 국산화 착수(2026.7.26) https://www.kharn.kr/news/article.html?no=31410">
+        <span class="num">37</span>
+        <div class="body">
+          <p class="cite"><span class="author">칸</span> (2026). 2027년 AI DC 전력·냉각 핵심장비 국산화 착수(2026.7.26).</p>
+          <a class="url" href="https://www.kharn.kr/news/article.html?no=31410" target="_blank" rel="noopener noreferrer">https://www.kharn.kr/news/article.html?no=31410</a>
+        </div>
+      </li>
+      <li id="ref-38" data-text="파이낸셜뉴스 2026 영덕·기장, 15년 만의 신규 원전 부지…계통·방폐장은 숙제(2026.6.17) https://www.fnnews.com/news/202606171932273981">
+        <span class="num">38</span>
+        <div class="body">
+          <p class="cite"><span class="author">파이낸셜뉴스</span> (2026). 영덕·기장, 15년 만의 신규 원전 부지…계통·방폐장은 숙제(2026.6.17).</p>
+          <a class="url" href="https://www.fnnews.com/news/202606171932273981" target="_blank" rel="noopener noreferrer">https://www.fnnews.com/news/202606171932273981</a>
+        </div>
+      </li>
+      <li id="ref-39" data-text="한국공학교육인증원 2024 공학교육인증기준 2025(kec2025) https://www.abeek.or.kr/img/2026kec.pdf">
+        <span class="num">39</span>
+        <div class="body">
+          <p class="cite"><span class="author">한국공학교육인증원</span> (2024). 공학교육인증기준 2025(KEC2025).</p>
+          <a class="url" href="https://www.abeek.or.kr/img/2026KEC.pdf" target="_blank" rel="noopener noreferrer">https://www.abeek.or.kr/img/2026KEC.pdf</a>
+        </div>
+      </li>
+      <li id="ref-40" data-text="lg전자 2026a 2026년 2분기 실적 컨퍼런스콜(2026.7.30) https://www.lge.co.kr/kr/upload/admin/investment/result/2026_q2_earning_release_of_lge_transcript_kr.pdf">
+        <span class="num">40</span>
+        <div class="body">
+          <p class="cite"><span class="author">LG전자</span> (2026a). 2026년 2분기 실적 컨퍼런스콜(2026.7.30).</p>
+          <a class="url" href="https://www.lge.co.kr/kr/upload/admin/investment/result/2026_Q2_Earning_Release_of_LGE_Transcript_KR.pdf" target="_blank" rel="noopener noreferrer">https://www.lge.co.kr/kr/upload/admin/investment/result/2026_Q2_Earning_Release_of_LGE_Transcript_KR.pdf</a>
+        </div>
+      </li>
+      <li id="ref-41" data-text="lg전자 2026b 글로벌 칠러 생산능력 확대…ai 데이터센터 냉각 솔루션 공급 늘린다(보도자료, 2026.10.1) https://www.lg.co.kr/media/release/30623">
+        <span class="num">41</span>
+        <div class="body">
+          <p class="cite"><span class="author">LG전자</span> (2026b). 글로벌 칠러 생산능력 확대…AI 데이터센터 냉각 솔루션 공급 늘린다(보도자료, 2026.10.1).</p>
+          <a class="url" href="https://www.lg.co.kr/media/release/30623" target="_blank" rel="noopener noreferrer">https://www.lg.co.kr/media/release/30623</a>
+        </div>
+      </li>
+      <li id="ref-42" data-text="sk텔레콤 2025 sk-aws 울산 ai 데이터센터, ai 고속도로의 거점으로(뉴스룸, 2025.6.23) https://news.sktelecom.com/213316">
+        <span class="num">42</span>
+        <div class="body">
+          <p class="cite"><span class="author">SK텔레콤</span> (2025). SK-AWS 울산 AI 데이터센터, AI 고속도로의 거점으로(뉴스룸, 2025.6.23).</p>
+          <a class="url" href="https://news.sktelecom.com/213316" target="_blank" rel="noopener noreferrer">https://news.sktelecom.com/213316</a>
+        </div>
+      </li>
+      <li id="ref-43" data-text="sk텔레콤·sk에코플랜트 2025 'sk ai 데이터센터 울산' 기공식 개최(공동보도자료, 2025.8.29) https://news.sktelecom.com/214708">
+        <span class="num">43</span>
+        <div class="body">
+          <p class="cite"><span class="author">SK텔레콤·SK에코플랜트</span> (2025). 'SK AI 데이터센터 울산' 기공식 개최(공동보도자료, 2025.8.29).</p>
+          <a class="url" href="https://news.sktelecom.com/214708" target="_blank" rel="noopener noreferrer">https://news.sktelecom.com/214708</a>
+        </div>
+      </li>
+      </ol>
+    </section>
+
+    <section id="international">
+      <h2>국외 자료 <span class="count">23건</span></h2>
+      <p class="desc">해외 대학 교육과정, 국제기구·산업계 보고서, 기업 기술 자료, 학술 자료</p>
+      <ol start="44">
+      <li id="ref-44" data-text="arxiv 2025 temperature optimisation in data centres. arxiv:2509.26163 https://www.arxiv.org/abs/2509.26163">
+        <span class="num">44</span>
+        <div class="body">
+          <p class="cite"><span class="author">arXiv</span> (2025). Temperature Optimisation in Data Centres. arXiv:2509.26163.</p>
+          <a class="url" href="https://www.arxiv.org/abs/2509.26163" target="_blank" rel="noopener noreferrer">https://www.arxiv.org/abs/2509.26163</a>
+        </div>
+      </li>
+      <li id="ref-45" data-text="ashrae tc 9.9 2019 water-cooled servers: common designs, components, and processes https://www.ashrae.org/file%20library/technical%20resources/bookstore/whitepaper_tc099-watercooledservers.pdf">
+        <span class="num">45</span>
+        <div class="body">
+          <p class="cite"><span class="author">ASHRAE TC 9.9</span> (2019). Water-Cooled Servers: Common Designs, Components, and Processes.</p>
+          <a class="url" href="https://www.ashrae.org/File%20Library/Technical%20Resources/Bookstore/WhitePaper_TC099-WaterCooledServers.pdf" target="_blank" rel="noopener noreferrer">https://www.ashrae.org/File%20Library/Technical%20Resources/Bookstore/WhitePaper_TC099-WaterCooledServers.pdf</a>
+        </div>
+      </li>
+      <li id="ref-46" data-text="atu 2026 bachelor of engineering in data centre facilities engineering https://www.atu.ie/courses/bachelor-of-engineering-data-centre-facilities-engineering">
+        <span class="num">46</span>
+        <div class="body">
+          <p class="cite"><span class="author">ATU</span> (2026). Bachelor of Engineering in Data Centre Facilities Engineering.</p>
+          <a class="url" href="https://www.atu.ie/courses/bachelor-of-engineering-data-centre-facilities-engineering" target="_blank" rel="noopener noreferrer">https://www.atu.ie/courses/bachelor-of-engineering-data-centre-facilities-engineering</a>
+        </div>
+      </li>
+      <li id="ref-47" data-text="binghamton university 2022 data center research group earns additional nsf funding https://www.binghamton.edu/news/story/3959/data-center-research-group-earns-additional-nsf-funding">
+        <span class="num">47</span>
+        <div class="body">
+          <p class="cite"><span class="author">Binghamton University</span> (2022). Data center research group earns additional NSF funding.</p>
+          <a class="url" href="https://www.binghamton.edu/news/story/3959/data-center-research-group-earns-additional-nsf-funding" target="_blank" rel="noopener noreferrer">https://www.binghamton.edu/news/story/3959/data-center-research-group-earns-additional-nsf-funding</a>
+        </div>
+      </li>
+      <li id="ref-48" data-text="data center knowledge 2026 ai rack density's real limits: power, cooling, failure risk https://www.datacenterknowledge.com/ai-data-centers/ai-rack-density-s-real-limits-power-cooling-failure-risk">
+        <span class="num">48</span>
+        <div class="body">
+          <p class="cite"><span class="author">Data Center Knowledge</span> (2026). AI Rack Density's Real Limits: Power, Cooling, Failure Risk.</p>
+          <a class="url" href="https://www.datacenterknowledge.com/ai-data-centers/ai-rack-density-s-real-limits-power-cooling-failure-risk" target="_blank" rel="noopener noreferrer">https://www.datacenterknowledge.com/ai-data-centers/ai-rack-density-s-real-limits-power-cooling-failure-risk</a>
+        </div>
+      </li>
+      <li id="ref-49" data-text="datacenterdynamics 2025 nvidia's rubin ultra nvl576 rack expected to be 600kw, coming second half of 2027 https://datacenterdynamics.com/en/news/nvidias-rubin-ultra-nvl576-rack-expected-to-be-600kw-coming-second-half-of-2027">
+        <span class="num">49</span>
+        <div class="body">
+          <p class="cite"><span class="author">DatacenterDynamics</span> (2025). Nvidia's Rubin Ultra NVL576 rack expected to be 600kW, coming second half of 2027.</p>
+          <a class="url" href="https://datacenterdynamics.com/en/news/nvidias-rubin-ultra-nvl576-rack-expected-to-be-600kw-coming-second-half-of-2027" target="_blank" rel="noopener noreferrer">https://datacenterdynamics.com/en/news/nvidias-rubin-ultra-nvl576-rack-expected-to-be-600kw-coming-second-half-of-2027</a>
+        </div>
+      </li>
+      <li id="ref-50" data-text="energy star 2026 raise the temperature. u.s. epa https://www.energystar.gov/node/6104">
+        <span class="num">50</span>
+        <div class="body">
+          <p class="cite"><span class="author">ENERGY STAR</span> (2026). Raise the Temperature. U.S. EPA.</p>
+          <a class="url" href="https://www.energystar.gov/node/6104" target="_blank" rel="noopener noreferrer">https://www.energystar.gov/node/6104</a>
+        </div>
+      </li>
+      <li id="ref-51" data-text="es2 2026 current industry members. binghamton university https://www.binghamton.edu/es2/partner/current-industry-members.html">
+        <span class="num">51</span>
+        <div class="body">
+          <p class="cite"><span class="author">ES2</span> (2026). Current Industry Members. Binghamton University.</p>
+          <a class="url" href="https://www.binghamton.edu/es2/partner/current-industry-members.html" target="_blank" rel="noopener noreferrer">https://www.binghamton.edu/es2/partner/current-industry-members.html</a>
+        </div>
+      </li>
+      <li id="ref-52" data-text="google deepmind 2016 deepmind ai reduces google data centre cooling bill by 40% https://deepmind.google/discover/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/">
+        <span class="num">52</span>
+        <div class="body">
+          <p class="cite"><span class="author">Google DeepMind</span> (2016). DeepMind AI Reduces Google Data Centre Cooling Bill by 40%.</p>
+          <a class="url" href="https://deepmind.google/discover/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/" target="_blank" rel="noopener noreferrer">https://deepmind.google/discover/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/</a>
+        </div>
+      </li>
+      <li id="ref-53" data-text="google deepmind 2018 safety-first ai for autonomous data centre cooling and industrial control https://deepmind.google/discover/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control">
+        <span class="num">53</span>
+        <div class="body">
+          <p class="cite"><span class="author">Google DeepMind</span> (2018). Safety-first AI for autonomous data centre cooling and industrial control.</p>
+          <a class="url" href="https://deepmind.google/discover/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control" target="_blank" rel="noopener noreferrer">https://deepmind.google/discover/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control</a>
+        </div>
+      </li>
+      <li id="ref-54" data-text="iea 2025 energy and ai https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai">
+        <span class="num">54</span>
+        <div class="body">
+          <p class="cite"><span class="author">IEA</span> (2025). Energy and AI.</p>
+          <a class="url" href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" target="_blank" rel="noopener noreferrer">https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai</a>
+        </div>
+      </li>
+      <li id="ref-55" data-text="iea 2026 key questions on energy and ai https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary">
+        <span class="num">55</span>
+        <div class="body">
+          <p class="cite"><span class="author">IEA</span> (2026). Key Questions on Energy and AI.</p>
+          <a class="url" href="https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary" target="_blank" rel="noopener noreferrer">https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary</a>
+        </div>
+      </li>
+      <li id="ref-56" data-text="kamk 2026 business information technology, data center https://kamk.fi/?p=29115">
+        <span class="num">56</span>
+        <div class="body">
+          <p class="cite"><span class="author">KAMK</span> (2026). Business Information Technology, Data Center.</p>
+          <a class="url" href="https://kamk.fi/?p=29115" target="_blank" rel="noopener noreferrer">https://kamk.fi/?p=29115</a>
+        </div>
+      </li>
+      <li id="ref-57" data-text="nvidia 2024 nvidia contributes nvidia gb200 nvl72 designs to open compute project https://developer.nvidia.com/blog/nvidia-contributes-nvidia-gb200-nvl72-designs-to-open-compute-project">
+        <span class="num">57</span>
+        <div class="body">
+          <p class="cite"><span class="author">NVIDIA</span> (2024). NVIDIA Contributes NVIDIA GB200 NVL72 Designs to Open Compute Project.</p>
+          <a class="url" href="https://developer.nvidia.com/blog/nvidia-contributes-nvidia-gb200-nvl72-designs-to-open-compute-project" target="_blank" rel="noopener noreferrer">https://developer.nvidia.com/blog/nvidia-contributes-nvidia-gb200-nvl72-designs-to-open-compute-project</a>
+        </div>
+      </li>
+      <li id="ref-58" data-text="openfoam foundation 2026 openfoam https://openfoam.org/">
+        <span class="num">58</span>
+        <div class="body">
+          <p class="cite"><span class="author">OpenFOAM Foundation</span> (2026). OpenFOAM.</p>
+          <a class="url" href="https://openfoam.org/" target="_blank" rel="noopener noreferrer">https://openfoam.org/</a>
+        </div>
+      </li>
+      <li id="ref-59" data-text="sc26 2026 student cluster competition https://sc26.supercomputing.org/students/student-cluster-competition/">
+        <span class="num">59</span>
+        <div class="body">
+          <p class="cite"><span class="author">SC26</span> (2026). Student Cluster Competition.</p>
+          <a class="url" href="https://sc26.supercomputing.org/students/student-cluster-competition/" target="_blank" rel="noopener noreferrer">https://sc26.supercomputing.org/students/student-cluster-competition/</a>
+        </div>
+      </li>
+      <li id="ref-60" data-text="schneider electric 2025 schneider electric delivers as liquid cooling takes center stage in ai data centers https://blog.se.com/datacenter/2025/10/17/schneider-electric-delivers-as-liquid-cooling-takes-center-stage-in-ai-data-centers/">
+        <span class="num">60</span>
+        <div class="body">
+          <p class="cite"><span class="author">Schneider Electric</span> (2025). Schneider Electric delivers as liquid cooling takes center stage in AI data centers.</p>
+          <a class="url" href="https://blog.se.com/datacenter/2025/10/17/schneider-electric-delivers-as-liquid-cooling-takes-center-stage-in-ai-data-centers/" target="_blank" rel="noopener noreferrer">https://blog.se.com/datacenter/2025/10/17/schneider-electric-delivers-as-liquid-cooling-takes-center-stage-in-ai-data-centers/</a>
+        </div>
+      </li>
+      <li id="ref-61" data-text="smu 2014 ms datacenter systems engineering catalog https://www.smu.edu/-/media/site/lyle/dse/ms-datacenter-systems-engineering-catalog.pdf?la=en">
+        <span class="num">61</span>
+        <div class="body">
+          <p class="cite"><span class="author">SMU</span> (2014). MS Datacenter Systems Engineering Catalog.</p>
+          <a class="url" href="https://www.smu.edu/-/media/Site/Lyle/DSE/MS-Datacenter-Systems-Engineering-Catalog.pdf?la=en" target="_blank" rel="noopener noreferrer">https://www.smu.edu/-/media/Site/Lyle/DSE/MS-Datacenter-Systems-Engineering-Catalog.pdf?la=en</a>
+        </div>
+      </li>
+      <li id="ref-62" data-text="syracuse university 2026 datacenters, ai and energy systems minor https://coursecatalog.syracuse.edu/undergraduate/engineering-computer-science/datacenters-ai-energy-systems-minor/">
+        <span class="num">62</span>
+        <div class="body">
+          <p class="cite"><span class="author">Syracuse University</span> (2026). Datacenters, AI and Energy Systems Minor.</p>
+          <a class="url" href="https://coursecatalog.syracuse.edu/undergraduate/engineering-computer-science/datacenters-ai-energy-systems-minor/" target="_blank" rel="noopener noreferrer">https://coursecatalog.syracuse.edu/undergraduate/engineering-computer-science/datacenters-ai-energy-systems-minor/</a>
+        </div>
+      </li>
+      <li id="ref-63" data-text="university of tennessee 2026 datacenter technology and management minor https://tickle.utk.edu/academics/undergraduate-minors/datacenter-technology-and-management/">
+        <span class="num">63</span>
+        <div class="body">
+          <p class="cite"><span class="author">University of Tennessee</span> (2026). Datacenter Technology and Management Minor.</p>
+          <a class="url" href="https://tickle.utk.edu/academics/undergraduate-minors/datacenter-technology-and-management/" target="_blank" rel="noopener noreferrer">https://tickle.utk.edu/academics/undergraduate-minors/datacenter-technology-and-management/</a>
+        </div>
+      </li>
+      <li id="ref-64" data-text="uptime institute 2020 rack density is rising https://journal.uptimeinstitute.com/rack-density-is-rising/">
+        <span class="num">64</span>
+        <div class="body">
+          <p class="cite"><span class="author">Uptime Institute</span> (2020). Rack Density is Rising.</p>
+          <a class="url" href="https://journal.uptimeinstitute.com/rack-density-is-rising/" target="_blank" rel="noopener noreferrer">https://journal.uptimeinstitute.com/rack-density-is-rising/</a>
+        </div>
+      </li>
+      <li id="ref-65" data-text="uptime institute 2025 lack of trust will hinder adoption of ai-based controls https://intelligence.uptimeinstitute.com/entity_pdf/node/152823/pdf">
+        <span class="num">65</span>
+        <div class="body">
+          <p class="cite"><span class="author">Uptime Institute</span> (2025). Lack of trust will hinder adoption of AI-based controls.</p>
+          <a class="url" href="https://intelligence.uptimeinstitute.com/entity_pdf/node/152823/pdf" target="_blank" rel="noopener noreferrer">https://intelligence.uptimeinstitute.com/entity_pdf/node/152823/pdf</a>
+        </div>
+      </li>
+      <li id="ref-66" data-text="uptime institute 2026 global data center survey 2026 https://datacenter.uptimeinstitute.com/rs/711-ria-145/images/uptimeinstitute.globaldatacentersurvey.2026.pdf">
+        <span class="num">66</span>
+        <div class="body">
+          <p class="cite"><span class="author">Uptime Institute</span> (2026). Global Data Center Survey 2026.</p>
+          <a class="url" href="https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/UptimeInstitute.GlobalDataCenterSurvey.2026.pdf" target="_blank" rel="noopener noreferrer">https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/UptimeInstitute.GlobalDataCenterSurvey.2026.pdf</a>
+        </div>
+      </li>
+      </ol>
+    </section>
+
+  <div class="empty" id="empty">검색 결과가 없습니다.</div>
+
+  <footer>
+    목록은 저자명 가나다·알파벳 순으로 정리되어 있습니다. 모든 URL은 조사 시점 기준이며, 원문 접근 가능 여부는 각 기관 사이트 정책에 따라 달라질 수 있습니다.
+  </footer>
+</div>
+<script>
+(function(){
+  var q=document.getElementById('q'), items=document.querySelectorAll('li[data-text]'),
+      status=document.getElementById('status'), empty=document.getElementById('empty'),
+      sections=document.querySelectorAll('section');
+  function run(){
+    var v=q.value.trim().toLowerCase(), shown=0;
+    items.forEach(function(li){ var ok=!v||li.dataset.text.indexOf(v)>-1; li.classList.toggle('hide',!ok); if(ok) shown++; });
+    sections.forEach(function(s){ s.style.display=s.querySelector('li:not(.hide)')?'':'none'; });
+    empty.style.display=shown?'none':'block';
+    status.textContent=v?('검색 결과 '+shown+'건 / 전체 '+items.length+'건'):'';
+  }
+  q.addEventListener('input',run);
+})();
+</script>
+</body>
+</html>
