@@ -2,7 +2,7 @@
 
 총 66건. 웹 페이지: https://jisseokoh.github.io/fusion-major-references/
 
-## 국내 자료
+## 
 
 - 과학기술정보통신부 (2026). 인공지능 데이터센터 특별법 국회 본회의 통과(보도자료, 2026.5.7). <https://eiec.kdi.re.kr/policy/materialView.do?num=280743>
 - 교육부 (2026). 지역 성장을 견인할 국가대표 거점국립대학 선정 결과 발표(보도자료, 2026.9.1). <https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=408&boardSeq=107109&lev=0&m=020402&opType=N&page=1&s=moe>
@@ -47,9 +47,6 @@
 - LG전자 (2026b). 글로벌 칠러 생산능력 확대…AI 데이터센터 냉각 솔루션 공급 늘린다(보도자료, 2026.10.1). <https://www.lg.co.kr/media/release/30623>
 - SK텔레콤 (2025). SK-AWS 울산 AI 데이터센터, AI 고속도로의 거점으로(뉴스룸, 2025.6.23). <https://news.sktelecom.com/213316>
 - SK텔레콤·SK에코플랜트 (2025). 'SK AI 데이터센터 울산' 기공식 개최(공동보도자료, 2025.8.29). <https://news.sktelecom.com/214708>
-
-## 국외 자료
-
 - arXiv (2025). Temperature Optimisation in Data Centres. arXiv:2509.26163. <https://www.arxiv.org/abs/2509.26163>
 - ASHRAE TC 9.9 (2019). Water-Cooled Servers: Common Designs, Components, and Processes. <https://www.ashrae.org/File%20Library/Technical%20Resources/Bookstore/WhitePaper_TC099-WaterCooledServers.pdf>
 - ATU (2026). Bachelor of Engineering in Data Centre Facilities Engineering. <https://www.atu.ie/courses/bachelor-of-engineering-data-centre-facilities-engineering>

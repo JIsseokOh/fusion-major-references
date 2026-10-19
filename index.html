@@ -24,10 +24,7 @@
   .eyebrow { font-size:13px; letter-spacing:.08em; color:var(--accent); font-weight:600; text-transform:uppercase; }
   h1 { font-size:clamp(26px,4vw,34px); margin:6px 0 10px; letter-spacing:-.01em; }
   .lead { color:var(--muted); margin:0 0 20px; font-size:15px; }
-  section { margin-top:36px; }
-  h2 { font-size:20px; margin:0 0 4px; display:flex; align-items:baseline; gap:10px; }
-  .count { font-size:13px; color:var(--muted); font-weight:500; }
-  .desc { margin:0 0 14px; font-size:14px; color:var(--muted); }
+  section { margin-top:8px; }
   ol { list-style:none; margin:0; padding:0; background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; }
   li { display:flex; gap:14px; padding:16px 18px; border-top:1px solid var(--line); }
   li:first-child { border-top:0; }
@@ -39,10 +36,8 @@
   .author { font-weight:600; }
   .url { display:block; font-size:13px; color:var(--accent); text-decoration:none; word-break:break-all; overflow-wrap:anywhere; }
   .url:hover { text-decoration:underline; }
-  footer { margin-top:48px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:18px; }
   @media print {
     body { background:#fff; color:#000; }
-    footer { display:none; }
     ol { border:0; } li { padding:6px 0; break-inside:avoid; }
     .url { color:#000; }
     .wrap { padding:0; max-width:none; }
@@ -57,9 +52,7 @@
     <p class="lead">융합전공 제안 공모전 제출용 참고문헌 목록입니다. 총 66건이며, 각 항목의 링크를 누르면 원문으로 이동합니다.</p>
   </header>
 
-    <section id="domestic">
-      <h2>국내 자료 <span class="count">43건</span></h2>
-      <p class="desc">정부·지자체 보도자료, 법령, 부산대학교 공식 자료, 국내 언론 보도, 국내 기업 자료</p>
+    <section id="list">
       <ol start="1">
       <li id="ref-1" data-text="과학기술정보통신부 2026 인공지능 데이터센터 특별법 국회 본회의 통과(보도자료, 2026.5.7) https://eiec.kdi.re.kr/policy/materialview.do?num=280743">
         <span class="num">1</span>
@@ -362,13 +355,6 @@
           <a class="url" href="https://news.sktelecom.com/214708" target="_blank" rel="noopener noreferrer">https://news.sktelecom.com/214708</a>
         </div>
       </li>
-      </ol>
-    </section>
-
-    <section id="international">
-      <h2>국외 자료 <span class="count">23건</span></h2>
-      <p class="desc">해외 대학 교육과정, 국제기구·산업계 보고서, 기업 기술 자료, 학술 자료</p>
-      <ol start="44">
       <li id="ref-44" data-text="arxiv 2025 temperature optimisation in data centres. arxiv:2509.26163 https://www.arxiv.org/abs/2509.26163">
         <span class="num">44</span>
         <div class="body">
@@ -533,9 +519,6 @@
       </ol>
     </section>
 
-  <footer>
-    목록은 저자명 가나다·알파벳 순으로 정리되어 있습니다. 모든 URL은 조사 시점 기준이며, 원문 접근 가능 여부는 각 기관 사이트 정책에 따라 달라질 수 있습니다.
-  </footer>
 </div>
 </body>
 </html>
